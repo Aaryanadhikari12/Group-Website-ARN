@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Website</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+      div {
+        display: inline-block;
+        margin-left: 100px;
+     
+        padding: 100px;
+      }
+      nav {
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+       
+      }
+
+      ul li {
+        display: inline-block;
+        margin-left:100px;
+        font-size: 20px;
+        font-weight: bold;
+        float:right;
+       margin-right:120px;
+        line-height: 70px;
+        list-style: none;
+      }
+      ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        padding:20px;
+        font-size: 20px;
+      }
+      ul li a:hover {
+        background-color: white;
+        color: black;
+  
+        
+      }
+      #home {
+        height: 100vh;
+        width: 100%;
+        background:url(background.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+      }
+      #services {
+        height: 100vh;
+        width: 100%;
+        background-color: yellow;
+      }
+      #about {
+        height: 100vh;
+        width: 100%;
+        background-color: red;
+      }
+      #contact {
+        height: 100vh;
+        width: 100%;
+        background-color: aqua;
+      }
+      .contact-form{
+          width:50%;
+          height:50%;
+          display:flex;
+          align-items:center;
+          justify-content: center;
+      }
+      .text{
+          color:white;
+          font-size:42px;
+      }
+      .explore-btn{
+          color:white;
+          background-color: blue;
+          width:90px;
+          height:20px;
+
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="home">
+        
+      <nav id="navbar">
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </nav>
+      
+      
+    <div class="text">
+        <h1> A website build for you..</h1>
+        <p>For your help and support</p>
+        <button class="explore-btn" >Explore..</button>
+    </div>
+
+    </section>
+    <section id="services">This is services</section>
+
+
+    <section id="about">
+      <div class="A1">
+        <div><img src="" alt="error" /></div>
+        <div><img src="" alt="error" /></div>
+      </div>
+      <p>Hi How are you</p>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="contact-form">
+           <form>
+               <span>Enter Your Name:</span><br><input type="name" placeholder="Name..."required><br>
+               <span>Enter Your Email:</span><br><input type="email" placeholder="email address..."required><br>
+     <span>Enter your message:</span><br><textarea name="#"  cols="30" rows="10" placeholder="Enter your message here...."></textarea><br>
+     <input type="submit" value="Submit">
+           </form>
+            
+        
+        </div>
+    </section>
+
+
+
+  </body>
+  <script>
+
+  </script>
+</html>
+
